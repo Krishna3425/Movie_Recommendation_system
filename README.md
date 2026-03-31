@@ -1,4 +1,4 @@
-git push -u origin main# MovieInsight: Professional Movie Recommendation and Analysis System
+# MovieInsight: Professional Movie Recommendation and Analysis System
 
 MovieInsight is a comprehensive data science platform tailored for the entertainment and media industry. It provides advanced solutions for content discovery, audience sentiment tracking, and strategic metadata filtering through a high-performance Python-based architecture.
 
