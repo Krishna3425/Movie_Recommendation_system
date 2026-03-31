@@ -5,8 +5,8 @@ from src.recommender import MovieRecommender
 from src.sentiment_analyzer import SentimentAnalyzer
 
 # Configuration
-DATA_DIR = r"C:\Users\Krishna\OneDrive\Desktop\movie recomendation system\data"
-MODELS_DIR = r"C:\Users\Krishna\OneDrive\Desktop\movie recomendation system\models"
+DATA_DIR = r"C:\Users\Krishna\OneDrive\Desktop\movie recommendation system\data"
+MODELS_DIR = r"C:\Users\Krishna\OneDrive\Desktop\movie recommendation system\models"
 
 st.set_page_config(page_title="MovieInsight - Professional Recommendation System", layout="wide")
 
@@ -72,9 +72,6 @@ sentiment_analyzer = SentimentAnalyzer()
 # Sidebar Navigation
 st.sidebar.title("MovieInsight Navigation")
 page = st.sidebar.selectbox("Select Page", ["Movie Recommender", "Movie Filter", "Sentiment Analysis"])
-
-st.sidebar.markdown("---")
-st.sidebar.info("MovieInsight is a professional platform for movie discovery, behavior analysis, and sentiment tracking. It uses the TMDB 5000 dataset for precise results.")
 
 # Page: Movie Filter
 if page == "Movie Filter":
