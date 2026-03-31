@@ -7,8 +7,8 @@ import os
 import pickle
 
 # Configuration
-DATA_DIR = r"C:\Users\Krishna\OneDrive\Desktop\movie recomendation system\data"
-MODELS_DIR = r"C:\Users\Krishna\OneDrive\Desktop\movie recomendation system\models"
+DATA_DIR = r"C:\Users\Krishna\OneDrive\Desktop\movie recommendation system\data"
+MODELS_DIR = r"C:\Users\Krishna\OneDrive\Desktop\movie recommendation system\models"
 
 class MovieRecommender:
     def __init__(self):
